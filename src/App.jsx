@@ -1,6 +1,8 @@
  import './app.scss'
  import Dock from './components/Dock.jsx'
-  import Nav from './components/Nav.jsx'
+ import Nav from './components/Nav.jsx'
+import Github from './components/windows/Github.jsx'
+ 
 
 function App() {
   
@@ -9,6 +11,7 @@ function App() {
       <main>
         <Nav />
         <Dock />
+        <Github />
       </main>
     </>
   )
